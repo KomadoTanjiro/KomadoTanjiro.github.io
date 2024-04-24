@@ -1,56 +1,58 @@
+/* style.css */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #FAF1E6; /* нежный пастельный цвет */
+    background-color: #f0e6f6;
     color: #333;
     margin: 0;
     padding: 0;
-}
-
-header, .invitation, .login {
     text-align: center;
+}
+
+header {
+    background-color: #fff;
     padding: 20px;
+    border-bottom: 1px solid #ccc;
 }
 
-h1 {
-    color: #A0522D;
+header h1 {
+    margin: 0;
 }
 
-img {
-    width: 100%;
-    max-width: 400px;
+header img {
+    max-width: 100%;
     height: auto;
-    margin: 20px 0;
 }
 
-.event-info {
-    background-color: #FFF0F5;
-    border: 1px solid #D3D3D3;
-    padding: 15px;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 500px;
-}
-
-.login form {
-    background-color: #FFF0F5;
-    border: 1px solid #D3D3D3;
+section {
     padding: 20px;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 300px;
 }
 
-input[type="text"], input[type="password"] {
-    width: 90%;
-    padding: 10px;
+footer {
+    background-color: #fff;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
     margin: 10px 0;
+    padding: 10px;
+    width: 200px;
     border: 1px solid #ccc;
 }
 
 button {
-    background-color: #A0522D;
-    color: white;
     padding: 10px 20px;
+    background-color: #a262c0;
+    color: white;
     border: none;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #9651a8;
 }
