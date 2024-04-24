@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAF1E6; /* нежный пастельный цвет */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, .invitation, .login {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #A0522D;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.event-info {
+    background-color: #FFF0F5;
+    border: 1px solid #D3D3D3;
+    padding: 15px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+.login form {
+    background-color: #FFF0F5;
+    border: 1px solid #D3D3D3;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 300px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #A0522D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
